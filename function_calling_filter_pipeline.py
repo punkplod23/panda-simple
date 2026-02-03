@@ -1,9 +1,3 @@
-Since you don't need the OpenWeatherMap API key and want to focus on the ALPNR functionality, I've streamlined the script.
-
-This version uses the __messages__ argument to automatically find the most recent image uploaded to the chat. When you say "get the registration," the model will trigger this tool, grab the image, and send it to your local endpoint.
-
-Python
-
 import os
 import requests
 import base64
